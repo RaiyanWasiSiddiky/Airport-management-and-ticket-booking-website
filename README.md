@@ -69,11 +69,12 @@ if ($conn->connect_error) {
 ?>
 ```
 
---- 
-
 Default XAMPP MySQL username is root with no password.
 
-Run the Project
+---;
+
+6. **Run the Project**
+
 Open your browser and navigate to:
 
 http://localhost/airport-project/
