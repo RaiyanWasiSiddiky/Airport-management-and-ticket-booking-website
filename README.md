@@ -43,17 +43,17 @@ Follow these steps to run the project on your local machine:
    Copy or clone this repository into your XAMPP `htdocs` folder such that your directory looks similar to this:  
 C:\xampp\htdocs\airport-project\
 
----
-
-
 4. **Import the Database**  
+
 - Open [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
 - Click **Import**  
 - Select the SQL file at `sql/airport.sql`  
 - Click **Go** to create the `airport` database and tables
 
 5. **Configure Database Connection**  
+
 Ensure `dbconnect.php` contains the following credentials:  
+
 ```php
 <?php
 $servername = "localhost";
@@ -67,6 +67,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
+
+--- 
+
 Default XAMPP MySQL username is root with no password.
 
 Run the Project
