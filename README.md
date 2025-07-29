@@ -40,12 +40,11 @@ Follow these steps to run the project on your local machine:
    Open the XAMPP Control Panel and click **Start** for both Apache and MySQL.
 
 3. **Place the Project**  
-   Copy or clone this repository into your XAMPP `htdocs` folder:  
+   Copy or clone this repository into your XAMPP `htdocs` folder such that your directory looks similar to this:  
 C:\xampp\htdocs\airport-project\
 
-php
-Copy
-Edit
+---
+
 
 4. **Import the Database**  
 - Open [http://localhost/phpmyadmin](http://localhost/phpmyadmin)  
@@ -73,13 +72,15 @@ Default XAMPP MySQL username is root with no password.
 Run the Project
 Open your browser and navigate to:
 
-arduino
-Copy
-Edit
 http://localhost/airport-project/
+
+---
+
 📚 Credits
 Developed by Raiyan Wasi Siddiky
 For CSE370 – BRAC University
+
+---
 
 📝 License
 This project is licensed under the MIT License — see the included LICENSE file for details.
