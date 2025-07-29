@@ -71,7 +71,7 @@ if ($conn->connect_error) {
 
 Default XAMPP MySQL username is root with no password.
 
----;
+---
 
 6. **Run the Project**
 
